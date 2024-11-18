@@ -9,7 +9,7 @@ The starting point for experimenting with the image segmentation task was the po
 
 ### Dataset
 A collection of water bodies images captured by the Sentinel-2 Satellite. Each image (128x128) comes with a black and white mask where white represents water and black represents something else but water.<br>
-Data comes from Kaggle: https://www.kaggle.com/datasets/franciscoescobar/satellite-images-of-water-bodies <br> and some data set was taken from the Bhuvan (Indian geo Platform for ISRO)
+Data comes from Kaggle: https://www.kaggle.com/datasets/franciscoescobar/satellite-images-of-water-bodies <br> and some data set was taken from the Bhuvan (Indian geo Platform for ISRO). The dimension and image properties were made same as the kaggles dataset. 
 The quality of downloaded data was good and did not require additional work with image preprocessing. There are some poor quality photos, but catching them would require manual work, and the project focused on implementing and testing the U-net network.<br>
 Below I have included some sample photos of water bodies with their masks.<br>
 <br>![dataset_exmpl](img/dataset_exmpl.png)
